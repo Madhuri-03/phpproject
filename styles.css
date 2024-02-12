@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+form{
+    max-width: 400px;
+    margin: auto;
+}
+label{
+    display: block;
+    margin-top:10px;
+
+}
+input,textarea{ 
+   width: 200px;
+   padding: 8px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+}
+input:hover{
+    border: 2px solid rgb(59, 37, 59);
+    background-color: #007Bff;
+    transition: border-color 0.3s ease;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover{
+    background-color: #45a049;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+input[type="radio"]{
+    margin-right:1px;
+    width: 50px;
+}
+
+div.Main{
+    background: url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    margin: -19px;
+    padding: 0;
+    border-style: solid;
+    border-width: -10px;
+    border-radius: 25px;
+    border: 1px solid slateblue;
+}
+h2{
+    font-family:  cursive;
+    color: black;
+}
+div.box{
+    background-color: rgba(170, 170, 135, 0.726);
+    border: 1px solid rgb(247, 169, 247);
+    border-radius: 25px;
+    opacity: 0.9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 400px;
+    padding: 20px;
+    cursor: pointer;
+
+
+}
+p{
+    color:black;
+    font-weight: 500;
+
+}
+.box:hover{
+   background-color: rgb(202, 198, 194);
+}
+div.Main:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Add a subtle background color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box-shadow on hover */
+}
